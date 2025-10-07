@@ -28,7 +28,7 @@ st.title("About Me")
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    st.image(r"C:\Users\ACER\Desktop\ML_Portfolio\WhatsApp Image 2025-09-18 at 15.36.51_1aaf220c.jpg", width=300)
+    st.image(r"WhatsApp Image 2025-09-18 at 15.36.51_1aaf220c.jpg", width=300)
 
 with col2:
     st.write("""

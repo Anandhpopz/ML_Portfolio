@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 
 def run_app():
     # Load model
-    model = joblib.load("models/linear_regression_model.pkl")
+    model = joblib.load(r"models/linear_regression_model.pkl")
 
     # Pre-fitted LabelEncoders
     gender_encoder = LabelEncoder()
